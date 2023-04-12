@@ -1,0 +1,138 @@
+/* Paleta de cores 
+    #FF4136 (vermelho forte)
+    #0074D9 (azul claro)
+    #FF851B (vermelho alaranjado)
+    #3D9970 (verde azulado)
+    #B10DC9 (roxo)
+    #001F3F (azul escuro)
+*/
+
+/* Padrão - Incio */
+html{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+/* Padrão = Fim */
+
+/* Nav bar - Inicio */
+#logo{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 50px;
+}
+nav ul li{
+    border-bottom: 1px solid gray;
+    /* ease-in-out faz com que comece divagar e termine lento */
+    transition: border 0.3s ease-in-out;
+    /* font-size: 1em; */
+}
+nav ul li:hover{
+    border-bottom: 1px solid white;
+}
+nav ul li img {
+    /* vertical-align: middle; */
+    height: 10px;
+}
+nav{
+    background-color: gray;
+    
+}
+/* Nav bar - Fim */
+
+/* Menu lateral do lado do carrosel */
+#procura-rapida-card p{
+    font-size: 21px;
+}
+#procura-rapida-card button{
+    font-size: 21px;
+}
+#caixa-pesquisa-menu input[type="text"]{
+    width: 35%;
+}
+.desconto{
+    text-decoration: line-through;
+}
+/* Menu lateral do lado do carrosel - fim*/
+/* Cards - Inicio */
+.cartao-item{
+    width: 65%;
+    height: 100%;
+}
+.card p{
+    font-size: 20px;
+}
+.card button{
+    font-size: 18px;
+}
+/* Cards - Fim */
+
+/* Menu mais vendidos - Inicio */
+.card-mais-vendidos{
+    width: 80%;
+    height: 100%;
+}
+.card-mais-vendidos p{
+    font-size: 18px;
+    color: black;
+}
+#contador-classi{
+    font-size: 100;
+}
+.card-noticias{
+    width: 80%;
+    height: 100%;
+}
+.card-mais-vendidos p{
+    font-size: 20px;
+}
+.card-mais-vendidos h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+/* Menu mais vendidos - Fim */
+
+/* Footer - Inicio */
+.titulo-footer{
+    font-weight: bold;
+}
+footer{
+    background-color: white;
+}
+footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+footer ul a{
+    text-decoration: none;
+}
+.redes-sociais{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    background-color: gray; 
+}
+/* Footer - Fim */
+
+/* Responsividade */
+
+/*  
+    col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2 
+    navbar-expand-lg define a responsividade
+    Extra small 	None 	<576px 
+    Small 	sm 	≥576px 
+    Medium 	md 	≥768px 
+    Large 	lg 	≥992px 
+    Extra large 	xl 	≥1200px 
+    Extra extra large 	xxl 	≥1400px 
+*/
+@media (max-width: 1399px) {
+    #procura-rapida-card {
+      margin-bottom: 20px;
+    }
+  }
